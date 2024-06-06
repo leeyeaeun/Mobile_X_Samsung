@@ -1,1 +1,5 @@
-# MobileX Experience Lab
+# GIST 교양 추천!
+
+GIST 교양을 사용자의 취향, 학년, 원하는 언어에 따라 추천해 줍니다!
+
+github: https://github.com/leeyeaeun/Mobile_X_Samsung
