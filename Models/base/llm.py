@@ -3,9 +3,7 @@ from abc import ABCMeta, abstractmethod
 from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint
 from langchain_core.language_models.llms import LLM
 from langchain_openai import ChatOpenAI
-from pydantic import BaseModel, Field
-from pydantic_core import Url
-
+from pydantic import BaseModel, Field, AnyUrl
 
 class BaseLLMModel(BaseModel, metaclass=ABCMeta):
     name: str = Field(description='LLM name')
@@ -30,7 +28,7 @@ class ChatGPTModel(BaseLLMModel):
 
 
 class HuggingFaceEndpointModel(BaseLLMModel):
-    endpoint_url: Url = Url('http://huggingface-tgi/')
+    endpoint_url: AnyUrl = AnyUrl('http://huggingface-tgi/')
     temperature: float = 0.8
 
     def build(self) -> LLM:

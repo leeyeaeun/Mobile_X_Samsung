@@ -1,8 +1,6 @@
-from pydantic import BaseModel, Field
-from pydantic_core import Url
-
+from pydantic import BaseModel, Field, AnyUrl
 
 class ImagePreviewModel(BaseModel):
-    image_url: Url = Field(
-        description='컷신',
+    image_url: AnyUrl = Field(
+        description='컷신', 
     )
