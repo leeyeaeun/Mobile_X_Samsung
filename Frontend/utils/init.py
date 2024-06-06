@@ -17,7 +17,7 @@ def _init() -> Settings:
     # Configure page
     try:
         st.set_page_config(
-            page_title='MobileX | Experience Lab',
+            page_title='Course_Recommend:꿀교양추천!',
             layout='wide',
             initial_sidebar_state='auto',
         )

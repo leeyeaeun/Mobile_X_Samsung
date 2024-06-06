@@ -1,7 +1,6 @@
 ---
-title: Welcome to the MobileX Experience Lab!
+title: GIST 교양 추천!
 description: |
-  Using the MobileX infrastructure, you can conveniently learn from front-end, back-end, AI, and service deployment.
+  GIST 교양을 사용자의 취향, 학년, 원하는 언어에 따라 추천해 줍니다!
 
-  Use the menu window on the left to experience various examples!
-github: https://github.com/HoKim98/mobilex-exp
+github: https://github.com/leeyeaeun/Mobile_X_Samsung

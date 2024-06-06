@@ -29,6 +29,7 @@ python = ">=3.12,<3.13"
 python-dotenv = { version = "*" }
 streamlit = { version = "*" }
 streamlit-pydantic = { git = "https://github.com/HIL340/streamlit-pydantic.git", branch = "pydantic-2.7" }
+pydantic-settings = "^2.2.1"
 
 
 [build-system]
